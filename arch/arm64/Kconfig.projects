@@ -5,6 +5,12 @@ config SEC_A52Q_PROJECT
 	help
 	  Support for Samsung A52Q Project
 
+config SEC_A71_PROJECT
+        default n
+        bool "Samsung A71 Project"
+        help
+          Support for Samsung A71 Project
+
 config SEC_A72Q_PROJECT
 	depends on ARCH_ATOLL
 	default n
@@ -32,6 +38,18 @@ config SEC_A52Q_LTN_OPEN
 	bool "Samsung A52Q LTN OPEN"
 	help
 	  Support for Samsung A52Q LTN OPEN device.
+
+config SEC_A71_EUR_PROJECT
+        default n
+        bool "Samsung A71 EUR OPEN Project"
+        help
+          Support for Samsung A71 EUR OPEN Project
+
+config SEC_A71_EUR_LDU_PROJECT
+        default n
+        bool "Samsung A71 EUR LDU Project"
+        help
+          Support for Samsung A71 EUR LDU Project
 
 config SEC_A72Q_EUR_OPEN
 	depends on SEC_A72Q_PROJECT 
